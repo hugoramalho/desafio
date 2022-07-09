@@ -1,0 +1,40 @@
+
+
+$color1 : rgb(51, 63, 82); //menu color
+
+$color2: rgb(39, 49, 66); //menu-footer color
+
+$color3: rgb(245, 245, 245); //backgroud routeroutlet color
+
+$color4: rgb(236, 236, 236);// dropdown label color
+
+$color5: rgb(0, 173, 230); //Button color
+
+.side-menu{
+  height: 92vh;
+  background-color: $color1;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul{
+    font-size: 1.2rem;
+    // padding-left: 1rem;
+    list-style: none;
+    // text-align: center;
+  }
+
+  .offset{
+    height: 52%;
+  }
+
+  .menu-footer{
+    border-top: 2px solid lighten(rgb(39, 49, 66), 5%);
+    text-align: center;
+    color: white;
+    background-color: rgb(39, 49, 66);
+    height: 6rem;
+
+  }
+
+}
